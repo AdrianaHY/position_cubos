@@ -1,0 +1,49 @@
+.cuadrosPapa {
+  border: 1px solid black;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 25px;
+}
+
+.cuadrosHijo {
+  border: 1px solid black;
+  width: 190px;
+  height: 190px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+.cuadrosHijito {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+#padre {
+  background-color: red;
+}
+
+#padre2 {
+  background-color: blue;
+}
+
+#hijo {
+  background-color: purple;
+}
+
+#hijo2 {
+  background-color: green;
+}
+
+#hijito {
+  background-color: yellow;
+}
+
+#hijito2 {
+  background-color: black;
+  right: 101px;
+  bottom: 101px;
+}
